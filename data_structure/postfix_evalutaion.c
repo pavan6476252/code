@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int top = -1, stack [100];
 main ( ){
     char a[50], ch;
@@ -11,7 +12,8 @@ main ( ){
     for(i=0; a[i]!='\0'; i++){
         ch = a[i];
         if (ch>='0' && ch<='9')
-            push('0');
+            push((int)(ch - '0'));
+          
         else{
             op2 = pop ( );
             op1 = pop ( );
