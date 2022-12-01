@@ -9,9 +9,11 @@ int main()
         int num1;
         int k;
         cin>> k>> num1;
-
-        if(num1 & 1<<k-1)
+    
+        if((1<<k-1)&num1 )
         cout<<"Bit is set"<<endl;
+        else
+        cout<<"Bit not set"<<endl;
 
     }
     return 1;
