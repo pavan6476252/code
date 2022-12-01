@@ -1,0 +1,1 @@
+{"name":"Local: count_set_bits","url":"c:\\Users\\meesa\\Desktop\\code\\code\\ecp\\count_set_bits.cpp","tests":[{"id":1669907797439,"input":"2\n4\n5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\meesa\\Desktop\\code\\code\\ecp\\count_set_bits.cpp","group":"local","local":true}
