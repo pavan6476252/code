@@ -58,14 +58,6 @@ int solveNQUtil(int col) {
     return 0;
 }
 
-/* This function solves the N Queen problem using
-   Backtracking. It mainly uses solveNQUtil() to
-   solve the problem. It returns false if queens
-   cannot be placed, otherwise, it returns true and
-   prints the placement of queens in the form of 1s.
-   Please note that there may be more than one
-   solutions, this function prints one of the
-   feasible solutions.*/
 void solveNQ() {
     if (solveNQUtil(0) == 0) {
         printf("Solution does not exist");
