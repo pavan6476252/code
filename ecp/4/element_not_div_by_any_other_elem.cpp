@@ -2,8 +2,7 @@
 #include<iostream>
 using namespace std;
 
-// Function for checking the condition
-// with 2 loops
+
 void printNonDivisible(int A[], int B[],
 						int n, int m)
 {
@@ -14,8 +13,6 @@ void printNonDivisible(int A[], int B[],
 			if( B[i] % A[j] == 0 )
 				break;
 
-		// If none of the elements in A[]
-		// divided B[i]
 		if (j == n)
 			cout << B[i] << endl;
 	}
