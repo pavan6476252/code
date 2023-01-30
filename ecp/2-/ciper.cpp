@@ -9,7 +9,7 @@ int main()
     for (int i = 0; i < s.length(); i++)
     {
 
-        cout << (char)(((s[i] - 'A') + move) % 25 + 'A');
+        cout << (char)(((s[i] - 'A') + move) % 26 + 'A');
     }
 
     return 1;
