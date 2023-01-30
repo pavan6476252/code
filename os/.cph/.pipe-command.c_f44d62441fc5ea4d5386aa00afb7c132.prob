@@ -1,0 +1,1 @@
+{"name":"Local: pipe-command","url":"/workspaces/code/os/pipe-command.c","tests":[{"id":1675091623902,"input":"ls -l \nmore","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/os/pipe-command.c","group":"local","local":true}

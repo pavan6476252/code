@@ -7,7 +7,7 @@ int main ()
     char command[50];
     int error = 0;
 
-    strcpy(command, "dir");
+    strcpy(command, "ls -l");
     error = system(command);
     printf("%s\n", command);
     printf("%d\n", error);
