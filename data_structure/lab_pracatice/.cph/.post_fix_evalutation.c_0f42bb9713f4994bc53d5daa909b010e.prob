@@ -1,0 +1,1 @@
+{"name":"Local: post_fix_evalutation","url":"/workspaces/code/data_structure/lab_pracatice/post_fix_evalutation.c","tests":[{"id":1675184823887,"input":"23+5*","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/data_structure/lab_pracatice/post_fix_evalutation.c","group":"local","local":true}
