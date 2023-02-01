@@ -1,37 +1,39 @@
-#include<stdio.h>
-#include<stdlib.h>
-struct node{
-    int data;
-    struct node *left,*right;
-}*root=NULL;
+// #include<stdio.h>
+// #include<stdlib.h>
+// struct node{
+//     int data;
+//     struct node *left,*right;
+// }*root=NULL;
 
-struct node* newNode(int x){
-    struct node* temp = (struct node*)malloc(sizeof(struct node));
-    temp->data = x;
-    temp->left=temp->right=NULL;
-    return temp;
-}
+// struct node* newNode(int x){
+//     struct node* temp = (struct node*)malloc(sizeof(struct node));
+//     temp->data = x;
+//     temp->left=temp->right=NULL;
+//     return temp;
+// }
 
-struct node* create(struct node* root , int x){
-    if(root==NULL){
-        return newNode(x);
-    }
-     if(x < root->data){
-         root->left = create(root->left,x);
-    }else{
-         root->right = create(root->right,x);
-    }
-    return root;
-}
-void print(struct node* root){
-    if(root!=NULL){
+// struct node* create(struct node* root , int x){
+//     if(root==NULL){
+//         return newNode(x);
+//     }
+//      if(x < root->data){
+//          root->left = create(root->left,x);
+//     }else{
+//          root->right = create(root->right,x);
+//     }
+//     return root;
+// }
+// void print(struct node* root){
+//     if(root!=NULL){
 
     
-    print(root->left);
-    printf("%d \t",root->data);
-    print(root->right);
-}
-}#include <stdio.h>
+//     print(root->left);
+//     printf("%d \t",root->data);
+//     print(root->right);
+// }
+// }
+
+#include <stdio.h>
 #include <stdlib.h>
 struct node
 {
@@ -199,13 +201,13 @@ int main()
 
     return 0;
 }
-void main(){
+// void main(){
     
-    root= create(root,6);
-    root= create(root,1);
-    root= create(root,7);
-    root= create(root,3);
-    root= create(root,33);
+//     root= create(root,6);
+//     root= create(root,1);
+//     root= create(root,7);
+//     root= create(root,3);
+//     root= create(root,33);
 
 
-}
+// }
