@@ -9,6 +9,7 @@ class binary_search{
      for(int i=0;i<n;i++){
         arr[i] = sc.nextInt();
      }
+     int key = sc.nextInt();
 
      int mid,i=0;
      while(i<n){
@@ -18,8 +19,10 @@ class binary_search{
         isFound =1;
         break;
      }
-     if(arr[mid]> key){
-
+     if(key < arr[mid]){
+        n = mid-1;
+     }else{
+        i = mid+1;
      }
      }
     }
