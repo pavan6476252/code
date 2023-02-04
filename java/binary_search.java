@@ -10,7 +10,7 @@ class binary_search{
         arr[i] = sc.nextInt();
      }
      int key = sc.nextInt();
-
+    int isFound =0;
      int mid,i=0;
      while(i<n){
         mid = (i+n)/2;
@@ -20,10 +20,15 @@ class binary_search{
         break;
      }
      if(key < arr[mid]){
-        n = mid-1;
+        n = mid;
      }else{
         i = mid+1;
      }
      }
+     if(isFound==1)
+     System.out.println("found");
+     else
+     System.out.println("not");
+     
     }
 }
