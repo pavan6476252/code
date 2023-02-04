@@ -1,1 +1,1 @@
-# This project contains all my practice problems from 2nd 1 btech 
+# This repository contains all coding problems that I have solved
