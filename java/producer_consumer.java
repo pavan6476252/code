@@ -37,7 +37,7 @@ class ProducerConsumer {
     }
 }
 
-public class Main
+public class producer_consumer
 {
 	public static void main(String[] args)throws InterruptedException {
 	        ProducerConsumer pc = new ProducerConsumer();
