@@ -1,0 +1,1 @@
+{"name":"Local: binary_search","url":"/workspaces/code/java/binary_search.java","tests":[{"id":1675353621901,"input":"5\n1 2 3 4 5\n7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/java/binary_search.java","group":"local","local":true}

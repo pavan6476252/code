@@ -1,0 +1,1 @@
+{"name":"Local: race_qualifi","url":"/workspaces/code/java/race_qualifi.java","tests":[{"id":1675353084547,"input":"56\n75\n67\n78\n65","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/java/race_qualifi.java","group":"local","local":true}
