@@ -15,7 +15,7 @@ class Tesla extends Vehicle{
     }
 }
 
-public class Main
+public class runtime_polymorphism
 {
 	public static void main(String[] args) {
 		Mustang m = new Mustang();
