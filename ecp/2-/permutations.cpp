@@ -15,7 +15,6 @@ void permutations(string a,int st,int n){
 
 int main()
 {
-
     string s ="abc";
     int n =3;
     permutations(s,0,n-1);

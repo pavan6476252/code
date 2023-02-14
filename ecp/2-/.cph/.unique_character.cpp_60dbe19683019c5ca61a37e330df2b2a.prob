@@ -1,0 +1,1 @@
+{"name":"Local: unique_character","url":"/workspaces/code/ecp/2-/unique_character.cpp","tests":[{"id":1676353252862,"input":"3\nmadhav\npavan\nkumar","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/ecp/2-/unique_character.cpp","group":"local","local":true}

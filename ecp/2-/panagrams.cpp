@@ -3,7 +3,6 @@
 using namespace std;
 int main()
 {
-    // string str ="the quick brown fox jumps over the lazy dog";
     string str ="The quick brown fox jumps over the dog";
     // cin >> str;
     int alpha[26] = {0};

@@ -1,0 +1,1 @@
+{"name":"Local: count_vowel_cons_speci","url":"/workspaces/code/ecp/2-/count_vowel_cons_speci.cpp","tests":[{"id":1676351160391,"input":"\"A1 B@ d  adc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/ecp/2-/count_vowel_cons_speci.cpp","group":"local","local":true}

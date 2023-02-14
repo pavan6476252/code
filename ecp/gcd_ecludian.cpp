@@ -7,7 +7,10 @@ int gcd(int m,int n){
    }
    return gcd(n,m%n );
 }
-
+// int gcd(int a,int x){
+//     if(a==0)return x;
+//     return gcd(x%a,a);
+// }
 int main(){
     int n =8;
     int m =8;
