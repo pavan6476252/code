@@ -20,9 +20,12 @@ int main()
     int totalCount=0;
     for (int i = 0; i < 26; i++)
     {
-        if (count[i] > 0)
+        if (count[i] > 0){
             totalCount++;
+            cout<<(char)(i+'a');
+            }
     }
+    cout<<endl;
     cout << totalCount;
 
     return 1;

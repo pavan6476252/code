@@ -1,0 +1,1 @@
+{"name":"Local: Sub_sequences_power_set","url":"/workspaces/code/ecp/4/Sub_sequences_power_set.cpp","tests":[{"id":1676354154569,"input":"abc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/ecp/4/Sub_sequences_power_set.cpp","group":"local","local":true}

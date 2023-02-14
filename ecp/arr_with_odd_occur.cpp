@@ -9,12 +9,12 @@ int main()
         int n;
         cin>>n;
         int arr[n];
-        while(n--){
-            cin>>arr[n-1]; 
+        for(int i=0;i<n;i++){
+            cin>>arr[i]; 
         }
-        for(int item :arr){
-            if(item &1 == 1)
-            cout<<"Odd occurence"<<endl;
+        for(int i=0;i<n;i++){
+            if(arr[i]%2==1 ){
+            cout<<arr[i]<<endl;}
         }
     }
     return 1;

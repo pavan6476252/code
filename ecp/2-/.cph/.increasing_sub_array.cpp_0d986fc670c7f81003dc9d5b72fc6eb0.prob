@@ -1,0 +1,1 @@
+{"name":"Local: increasing_sub_array","url":"/workspaces/code/ecp/2-/increasing_sub_array.cpp","tests":[{"id":1676374062167,"input":"4\n1 2 3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/ecp/2-/increasing_sub_array.cpp","group":"local","local":true}

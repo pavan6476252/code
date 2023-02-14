@@ -43,7 +43,7 @@ bool nQueen(int arr[N][N] ,int x,int n){
             // 
             arr[x][col]=0;
         }
-    }
+    } 
     return false;
 }
 

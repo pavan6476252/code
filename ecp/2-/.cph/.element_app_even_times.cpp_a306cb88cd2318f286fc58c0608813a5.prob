@@ -1,0 +1,1 @@
+{"name":"Local: element_app_even_times","url":"/workspaces/code/ecp/2-/element_app_even_times.cpp","tests":[{"id":1676378178749,"input":"5\n1 2 3 2 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/code/ecp/2-/element_app_even_times.cpp","group":"local","local":true}

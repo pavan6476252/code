@@ -6,6 +6,7 @@ int main()
     string s;
     cin>>s;
     for(int i=0;i<pow(2,s.length());i++){
+        if(i==0)cout<<" ";
         for(int j=0;j<s.length();j++){
             if(i & (1<<j)){
                 cout<<s[j];
