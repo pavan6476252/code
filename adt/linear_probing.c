@@ -12,7 +12,9 @@ void delete();
 int main(){
 	int choice;
 	while(1){
-		printf("1 .insert \n 2.display \n 3.search\n 4.exit\n");
+		printf("------------------------\n");
+		printf("1 .insert \n2.display \n3.search\n4.exit\n");
+		printf("------------------------\n");
 		scanf("%d",&choice);
 		
 		switch(choice){
@@ -38,7 +40,7 @@ int main(){
 	int hkey=0;
 	while(1){
 		if(i==10){
-			printf("table full");
+			printf("table full\n");
 			return;
 		}
 	 hkey = (num + i)%size;
@@ -57,15 +59,17 @@ int main(){
 
 void display(){
 	int i;
+	printf("------------------------\n");
 	printf("index  data  probs\n");
 	for(i=0;i<10;i++){
 		printf("%d\t%d\t%d \n" , i ,arr[i],prob[i]);
 	}
+	printf("------------------------\n");
 }
 
 void search(){
 		int n,i=0;
-	printf("ENTER NUMEBR FOR SEARCH\N");
+	printf("ENTER NUMEBR FOR SEARCH\n");
 	scanf("%d",&n);
 	int hkey=0;
 		while(1){
@@ -86,7 +90,7 @@ void search(){
 }
 void delete(){
 	int n,i=0;
-	printf("ENTER NUMEBR\N");
+	printf("ENTER NUMBER\n");
 	scanf("%d",&n);
 	int hkey=0;
 		while(1){
